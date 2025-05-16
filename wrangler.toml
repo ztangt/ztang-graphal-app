@@ -3,3 +3,6 @@ workers_dev = true
 compatibility_date = "2024-01-01"
 main = "src/index.ts"
 [vars]
+routes = [
+  { pattern = "api.ztang.org/*", zone_id = "8ed12edde6c6ff9f04bdeeee2f2a63c7" }
+]
